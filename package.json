@@ -1,0 +1,35 @@
+{
+  "name": "jinge-webpack-loader",
+  "version": "0.0.0",
+  "description": "webpack loader for jinge framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuhangGe/jinge-webpack-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "jinge"
+  ],
+  "author": "Yuhang Ge <abeyuhang@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuhangGe/jinge-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/YuhangGe/jinge-webpack-loader#readme",
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "jinge-compiler": "0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "precommit-hook": "^3.0.0"
+  }
+}
